@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset & output training (besar / lisensi beragam)
+ai/datasets/
+moneyscanyolo/
+runs/
+*.cache
+*.log
+
+# Bobot pretrained Ultralytics (diunduh otomatis)
+ai/models/yolo26n.pt
+
+# Rahasia & data lokal
+.env
+*.db
+server/foto/
+
+# Lain-lain
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
