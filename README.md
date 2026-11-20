@@ -3,13 +3,13 @@
 Kotak amal berbasis IoT + AI: ESP32-CAM memotret uang di nampan, model YOLO di server laptop
 mengenali nominal, setiap donasi dicatat (dengan foto bukti) dan tampil di dashboard secara real-time.
 Final project Samsung Innovation Campus Batch 8 Stage 3 — Tim **BesokKamis**.
-Konteks lengkap proyek ada di [CLAUDE.md](CLAUDE.md).
+
 
 ## Struktur repo
 
 ```
 smart-kotak-amal/
-├── CLAUDE.md, README.md, requirements.txt, .env.example, .gitignore
+├── README.md, requirements.txt
 ├── firmware/
 │   ├── esp32_main/   # sensor, servo, OLED, MQTT, antrean offline, pins.h      (belum)
 │   └── esp32_cam/    # foto nampan -> POST ke server                           (belum)
